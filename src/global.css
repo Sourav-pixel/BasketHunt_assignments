@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --r-16: "Nunito Sans";
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+  --font-size-45xl: 64px;
+  --r-16-size: 16px;
+  --b-40-size: 40px;
+  --body-4-size: 14px;
+
+  /* Colors */
+  --orange: #ff7a3d;
+  --strock: #e5e5cb;
+  --color-white: #fff;
+  --text: #3c2a21;
+  --black-100: #1d1d1f;
+  --color-gray-100: #1e1810;
+  --black-75: rgba(29, 29, 31, 0.75);
+  --color-black: #000;
+  --gold: #daa520;
+
+  /* Gaps */
+  --gap-5xl: 24px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-13xl: 32px;
+  --padding-7xs: 6px;
+  --padding-331xl: 350px;
+  --padding-181xl: 200px;
+  --padding-581xl: 600px;
+  --padding-101xl: 120px;
+  --padding-base: 16px;
+  --padding-3xs: 10px;
+  --padding-9xs: 4px;
+
+  /* border radiuses */
+  --br-21xl: 40px;
+  --br-3xs: 10px;
+  --br-31xl: 50px;
+  --br-81xl: 100px;
+
+  /* Effects */
+  --button-inner-effect: 2px 2px 2px rgba(255, 255, 255, 0.25) inset,
+    -2px -2px 2px rgba(255, 255, 255, 0.25) inset;
+}
